@@ -326,6 +326,7 @@ h3 {
 			background-size: cover;
 			position: absolute;
 			z-index: 2;
+			margin-bottom: 32px;
 		}
 
 		> h3 {
@@ -564,6 +565,91 @@ h3 {
 			font-size: $subti;
 			font-weight: 900;
 			font-style: italic;
+		}
+	}
+
+	> .product6 {
+		position: relative;
+		margin-top: 1283px;
+
+    > .square {
+		width: 480px;
+		height: 200px;
+		border: 20px solid #50E3C2;
+		position: absolute;
+		top: 250px;
+		z-index: 1;
+		}
+
+		> .productPic {
+			width: 480px;
+			height: 400px;
+			background-image: url(https://images.unsplash.com/photo-1519406709381-c1f293304b28?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c497a29f229085d9574ee8b6eeef8c&auto=format&fit=crop&w=634&q=80);
+			background-position: center center;
+			background-size: cover;
+			position: absolute;
+			z-index: 2;
+		}
+
+		> h3 {
+			position: absolute;
+			z-index: 3;
+			line-height: 48px;
+			white-space: nowrap;
+			left: 120px;
+			top: -48px;
+
+			&::before {
+				content: "VINTAGE DENIM";
+				color: rgba(0,0,0,0.30);
+				position: absolute;
+				height: 21px;
+				overflow: hidden;
+				top: -15px;
+				left: 0;				
+			}
+
+			&::after {
+				content: "VINTAGE DENIM";
+				color: rgba(0,0,0,0.10);
+				position: absolute;
+				height: 14px;
+				overflow: hidden;
+				top: -25px;
+				left: 0;
+			
+			}
+		}
+
+		> .listNum {
+			position: absolute;
+			font-size: $number;
+			font-weight: 900;
+			top: 150px;
+			left: -56px;
+			z-index: 4;
+		}
+
+		> .subtitle {
+			position: absolute;
+			z-index: 5;
+			white-space: nowrap;
+			transform: rotate(-360deg);
+			top: -28px;
+			left: 170px;
+			top: 402px;
+			font-size: $subti;
+			font-weight: 900;
+			font-style: italic;
+		}
+
+		> .solidSquare {
+			position: absolute;
+			width: 60px;
+			height: 200px;
+			background: #50E3C2;
+			top: 200px;
+			left: -60px;
 		}
 	}
 }
